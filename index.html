@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind css</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-cyan-900">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo/Name -->
+        <h1 class="text-2xl font-bold text-gray-800">Bechir Chabene</h1>
+
+        <!-- Navigation Menu -->
+        <nav>
+          <ul class="flex space-x-6">
+            <li>
+              <a href="#" class="text-gray-600 hover:text-blue-500 transition"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-blue-500 transition"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-600 hover:text-blue-500 transition"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-screen flex items-center justify-center"
+    style="background-image: url('onepiece.jpg')">
+       
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+      <!-- Overlay -->
+
+      <div class="container mx-auto h-full flex items-center justify-center">
+        <div class="text-center text-white z-10">
+          <h1 class="text-5xl md:text-6xl font-bold mb-4">
+            Hello, I'm Bechir Chabene
+          </h1>
+          <p class="text-lg md:text-xl">
+            Streamer , content creator & web developer
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+          My Skills
+        </h2>
+
+        <div class="flex flex-wrap justify-center gap-8">
+          <!-- Skill 1 -->
+          <div class="max-w-xs bg-gray-50 p-6 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold mb-4 text-gray-800">
+              HTML & CSS
+            </h3>
+            <p class="text-gray-600">
+              Building responsive layouts and styling with HTML, CSS, and
+              frameworks like Tailwind.
+            </p>
+          </div>
+
+          <!-- Skill 2 -->
+          <div class="max-w-xs bg-gray-50 p-6 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold mb-4 text-gray-800">
+              JavaScript
+            </h3>
+            <p class="text-gray-600">
+              Creating interactive web applications using JavaScript, ES6+, and
+              modern libraries.
+            </p>
+          </div>
+
+          <!-- Skill 3 -->
+          <div class="max-w-xs bg-gray-50 p-6 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold mb-4 text-gray-800">
+              IoT Development
+            </h3>
+            <p class="text-gray-600">
+              Proficiency in developing and integrating IoT solutions for smart
+              applications.
+            </p>
+          </div>
+
+          <!-- Skill 4 -->
+          <div class="max-w-xs bg-gray-50 p-6 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold mb-4 text-gray-800">Python</h3>
+            <p class="text-gray-600">
+              Automating tasks, data analysis, and AI/ML development using
+              Python.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="py-16">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+          My Projects
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="web.jpg"
+              alt="Project 1"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Project One</h3>
+              <p class="text-gray-600">
+                A web development project using modern technologies like HTML,
+                CSS, and JavaScript.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="iot.jpg"
+              alt="Project 2"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Project Two</h3>
+              <p class="text-gray-600">
+                An IoT-based project for smart home automation using sensors and
+                microcontrollers.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="python.webp"
+              alt="Project 3"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Project Three</h3>
+              <p class="text-gray-600">
+                A Python application that leverages machine learning to solve
+                real-world problems.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="javascript.jpg"
+              alt="Project 4"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Project Four</h3>
+              <p class="text-gray-600">
+                A JavaScript-based project to create interactive web experiences
+                with dynamic content.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="AI.jpg"
+              alt="Project 5"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Project Five</h3>
+              <p class="text-gray-600">
+                An AI-driven project that explores natural language processing
+                with Python.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="mobile.jpg"
+              alt="Project 6"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Project Six</h3>
+              <p class="text-gray-600">
+                A mobile app developed using React Native, designed to enhance
+                productivity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+          Contact Me
+        </h2>
+
+        <div class="max-w-lg mx-auto bg-gray-50 p-8 rounded-lg shadow-lg">
+          <form action="#" method="POST">
+            <!-- Name Field -->
+            <div class="mb-6">
+              <label
+                for="name"
+                class="block text-gray-700 text-sm font-semibold mb-2"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+
+            <!-- Email Field -->
+            <div class="mb-6">
+              <label
+                for="email"
+                class="block text-gray-700 text-sm font-semibold mb-2"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+
+            <!-- Message Field -->
+            <div class="mb-6">
+              <label
+                for="message"
+                class="block text-gray-700 text-sm font-semibold mb-2"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center">
+              <button
+                type="submit"
+                class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 py-8">
+      <div
+        class="container mx-auto flex flex-col md:flex-row justify-between items-center text-white"
+      >
+        <!-- Copyright Information -->
+        <p class="text-center text-sm mb-4 md:mb-0">
+          &copy; 2024 bechir chabene. All Rights Reserved.
+        </p>
+
+        <!-- Social Media Icons -->
+        <div class="flex space-x-6">
+          <!-- Social Icon 1 -->
+          <a href="#" class="text-gray-400 hover:text-white transition">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              stroke="none"
+            >
+              <path
+                d="M22.675 0H1.325C.595 0 0 .595 0 1.325v21.351C0 23.405.595 24 1.325 24h11.495V14.709h-3.13v-3.61h3.13V8.309c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.796.715-1.796 1.764v2.312h3.591l-.467 3.61h-3.124V24h6.116C23.405 24 24 23.405 24 22.675V1.325C24 .595 23.405 0 22.675 0z"
+              />
+            </svg>
+          </a>
+          <!-- Social Icon 2 -->
+          <a href="#" class="text-gray-400 hover:text-white transition">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              stroke="none"
+            >
+              <path
+                d="M24 4.557a9.93 9.93 0 01-2.828.775 4.932 4.932 0 002.165-2.723 9.865 9.865 0 01-3.127 1.195 4.916 4.916 0 00-8.384 4.482A13.938 13.938 0 011.675 3.149a4.904 4.904 0 001.523 6.553A4.899 4.899 0 01.964 9.15v.061a4.915 4.915 0 003.946 4.816 4.905 4.905 0 01-2.212.084 4.919 4.919 0 004.588 3.417 9.862 9.862 0 01-6.102 2.104c-.398 0-.79-.023-1.177-.068a13.924 13.924 0 007.548 2.212c9.054 0 14.004-7.496 14.004-13.986 0-.213-.005-.425-.014-.636A10.005 10.005 0 0024 4.557z"
+              />
+            </svg>
+          </a>
+          <!-- Social Icon 3 -->
+          <a href="#" class="text-gray-400 hover:text-white transition">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              stroke="none"
+            >
+              <path
+                d="M12 2.04c-5.524 0-10 4.477-10 10 0 5.524 4.476 10 10 10 5.523 0 10-4.476 10-10 0-5.523-4.477-10-10-10zm0 18.372c-4.629 0-8.372-3.742-8.372-8.372S7.371 3.667 12 3.667c4.63 0 8.372 3.743 8.372 8.373s-3.742 8.372-8.372 8.372zm0-12.034a3.662 3.662 0 00-3.667 3.667 3.662 3.662 0 003.667 3.667 3.662 3.662 0 003.667-3.667 3.662 3.662 0 00-3.667-3.667zm0 5.777c-1.164 0-2.11-.946-2.11-2.11 0-1.164.946-2.11 2.11-2.11 1.164 0 2.11.946 2.11 2.11 0 1.164-.946 2.11-2.11 2.11zm4.401-5.936c-.798 0-1.444-.646-1.444-1.444 0-.798.646-1.444 1.444-1.444.798 0 1.444.646 1.444 1.444 0 .798-.646 1.444-1.444 1.444z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
